@@ -1,4 +1,4 @@
-Crime, Commissions, and Citizen Reporting: Evidence from Marikana
+# Crime, Commissions, and Citizen Reporting: Evidence from Marikana
 
 ## Context
 In August 2012, a wildcat strike by mineworkers at the Lonmin platinum mine in Marikana, North West Province, escalated into a confrontation between workers and the South African Police Service. On 16 August 2012, police opened fire on striking miners, killing 34 and injuring dozens more in what became the most lethal use of state force in democratic South Africa. The scale of the violence, its extensive media coverage, and public outrage prompted the government to establish the Marikana Commission of Inquiry to investigate the actions of the police, the mining company, unions, and the state.
@@ -30,10 +30,10 @@ All station-specific and time-specific factors – such as fixed station charact
 * **Data Sources**: South African Police Service. South African Police Service Annual Crime Records 2008-2023 [dataset]. Version 1. Pretoria: South African Police Service (SAPS) [producer], 2023. Cape Town: DataFirst [distributor], 2025. DOI: https://doi.org/10.25828/5MAW-4H90
 * **Data Storage**: The SAPS data was kept in its original CSV format to preserve it as a reference point. Although I filtered, categorised, and transformed the data to isolate data for Rustenburg Municipality in order to run the relevant regressions.
 * **Crime Categories**: The SAPS has a list of crime categories that I used to sort the data. They are:
-Contact crimes: These crimes involve the use of violence or a threat to use violence that is directed against the person of a victim
-Contact related crimes: These are violent crimes committed against material assets with the intention to cause damage and or the destruction of another person’s property.
-Crimes against property: These crimes occur in the absence of the victim or under circumstances in which the victim is unaware of the crime being committed at the time (no person is directly or immediately harmed or threatened during the commission of such a crime).
-Other serious crimes: The category includes all theft not mentioned elsewhere (common or other theft), commercial crime (fraud-related crimes) and shoplifting.
+Contact crimes: These crimes involve the use of violence or a threat to use violence that is directed against the person of a victim.
+Contact-related crimes: These crimes occur in the absence of the victim or under circumstances in which the victim is unaware of the crime being committed at the time (no person is directly or immediately harmed or threatened during the commission of such a crime).
+Crimes against property:  These are violent crimes committed against material assets with the intention to cause damage and or the destruction of another person’s property.
+Other serious crimes: The category includes all theft not mentioned elsewhere (common or other theft), commercial crime (fraud-related crimes) and shoplifting. 
 Crimes dependent on police action for detention: These are crimes in general not reported by members of the public, but mainly detected through direct police action, such as roadblocks and SAPS intelligence-led operations.
 * **Important Note**: In charts and regression summaries, a singular year date is used instead of the fiscal year date. This is for readability purposes, but that date still measures that fiscal year. So a date saying 2012, will be measuring the fiscal year from March 2012 to February 2013.
 
