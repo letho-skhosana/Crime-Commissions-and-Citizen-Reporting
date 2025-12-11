@@ -1,61 +1,22 @@
-
-<style>
-table.stargazer {
-    font-family: Helvetica, Arial, sans-serif;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 13px;
-}
-table.stargazer th {
-    padding: 6px 12px;
-    text-align: center;
-    font-weight: bold;
-}
-table.stargazer td {
-    padding: 4px 12px;
-    border-top: 1px solid #ddd;
-}
-table.stargazer tr:nth-child(even) {
-    background-color: #fafafa;
-}
-caption {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 12px;
-}
-.note {
-    font-size: 11px;
-    margin-top: 12px;
-    text-align: center;
-    color: #555;
-}
-</style>
 Regression Summary: Effects of Marikana Commission and Massacre<br><table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr>
 <tr><td style="text-align:left"></td><tr><td></td><td colspan="1">Police Model (DiD)</td><td colspan="1">Citizen Model (DiD)</td><td colspan="1">Citizen Model (ITS)</td><td colspan="1">Police Model (ITS)</td></tr><tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
 <tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr>
 
-<tr><td style="text-align:left">Treated group</td><td>0.796<sup>***</sup></td><td>0.467<sup>***</sup></td><td></td><td></td></tr>
-<tr><td style="text-align:left"></td><td>(0.117)</td><td>(0.073)</td><td></td><td></td></tr>
-<tr><td style="text-align:left">Treatment year</td><td>0.511<sup>***</sup></td><td>-0.204<sup>***</sup></td><td>-0.053<sup></sup></td><td>0.251<sup>**</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.017)</td><td>(0.017)</td><td>(0.111)</td><td>(0.126)</td></tr>
-<tr><td style="text-align:left">Treatment year x Treated group</td><td>0.142<sup>*</sup></td><td>-0.098<sup></sup></td><td></td><td></td></tr>
-<tr><td style="text-align:left"></td><td>(0.078)</td><td>(0.064)</td><td></td><td></td></tr>
-<tr><td style="text-align:left">Contact-related crime (log)</td><td>-0.132<sup>***</sup></td><td></td><td></td><td>0.071<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.018)</td><td></td><td></td><td>(0.204)</td></tr>
-<tr><td style="text-align:left">Property crime (log)</td><td>0.199<sup>***</sup></td><td></td><td></td><td>0.046<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.022)</td><td></td><td></td><td>(0.173)</td></tr>
-<tr><td style="text-align:left">Other serious crime (log)</td><td>0.176<sup>***</sup></td><td></td><td></td><td>-0.017<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.021)</td><td></td><td></td><td>(0.166)</td></tr>
-<tr><td style="text-align:left">Contact crime (log)</td><td>0.426<sup>***</sup></td><td></td><td></td><td>-0.363<sup>*</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.023)</td><td></td><td></td><td>(0.201)</td></tr>
-<tr><td style="text-align:left">Police-detected crime (log)</td><td></td><td>0.481<sup>***</sup></td><td>0.029<sup></sup></td><td></td></tr>
-<tr><td style="text-align:left"></td><td></td><td>(0.020)</td><td>(0.062)</td><td></td></tr>
+<tr><td style="text-align:left">DiD Estimator</td><td>0.139<sup></sup></td><td>-0.131<sup></sup></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.138)</td><td>(0.088)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">RDD Estimator</td><td></td><td></td><td>-0.082<sup></sup></td><td>0.092<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.111)</td><td>(0.082)</td></tr>
+<tr><td style="text-align:left">Contact-related crime (log)</td><td>0.012<sup></sup></td><td></td><td></td><td>0.054<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.037)</td><td></td><td></td><td>(0.275)</td></tr>
+<tr><td style="text-align:left">Property crime (log)</td><td>-0.061<sup></sup></td><td></td><td></td><td>0.840<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.042)</td><td></td><td></td><td>(0.173)</td></tr>
+<tr><td style="text-align:left">Other serious crime (log)</td><td>0.474<sup>***</sup></td><td></td><td></td><td>-0.520<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.032)</td><td></td><td></td><td>(0.118)</td></tr>
+<tr><td style="text-align:left">Contact crime (log)</td><td>0.492<sup>***</sup></td><td></td><td></td><td>0.584<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.036)</td><td></td><td></td><td>(0.209)</td></tr>
+<tr><td style="text-align:left">Police-detected crime (log)</td><td></td><td>0.758<sup>***</sup></td><td>0.783<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.014)</td><td>(0.040)</td><td></td></tr>
 
-<td colspan="5" style="border-bottom: 1px solid black"></td></tr>
-<tr><td style="text-align: left">Observations</td><td>16965</td><td>16965</td><td>120</td><td>120</td></tr><tr><td style="text-align: left">R<sup>2</sup></td><td>0.899</td><td>0.904</td><td>0.969</td><td>0.938</td></tr><tr><td style="text-align: left">Adjusted R<sup>2</sup></td><td>0.892</td><td>0.897</td><td>0.961</td><td>0.921</td></tr><tr><td style="text-align: left">Residual Std. Error</td><td>0.558</td><td>0.492</td><td>0.235</td><td>0.366</td></tr><tr><td style="text-align: left">F Statistic</td><td>201.940<sup>***</sup></td><td>348.011<sup>***</sup></td><td>193.657<sup>***</sup></td><td>100.889<sup>***</sup></td></tr>
+<tr><td style="text-align: left">Station fixed effects</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td style="text-align: left">Year fixed effects</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align: left">Observations</td><td>16965</td><td>16965</td><td>120</td><td>120</td></tr><tr><td style="text-align: left">R<sup>2</sup></td><td>0.719</td><td>0.694</td><td>0.677</td><td>0.750</td></tr><tr><td style="text-align: left">Adjusted R<sup>2</sup></td><td>0.719</td><td>0.694</td><td>0.666</td><td>0.734</td></tr><tr><td style="text-align: left">Residual Std. Error</td><td>0.897</td><td>0.850</td><td>0.708</td><td>0.673</td></tr><tr><td style="text-align: left">F Statistic</td><td>105.608<sup>***</sup></td><td>61.491<sup>***</sup></td><td>99.176<sup>***</sup></td><td>63.268<sup>***</sup></td></tr>
 <tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align: left">Note:</td><td colspan="4" style="text-align: right"><sup>*</sup>p&lt;0.1; <sup>**</sup>p&lt;0.05; <sup>***</sup>p&lt;0.01</td></tr></table>
-<div class="note">
-Robust standard errors (HC1).<br>
-*p < 0.10, **p < 0.05, ***p < 0.01
-</div>

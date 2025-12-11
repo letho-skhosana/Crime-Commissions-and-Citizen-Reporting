@@ -30,8 +30,5 @@ South African Police Service. South African Police Service Annual Crime Records 
    - Do the interrupted time series for Rustenburg Municipality for the citizen model and the police model
    - Generate the model summaries for all the aforementioned regressions under `/model-summaries`
 
-5. Open `NB03-Charts.ipynb` and run all cells to plot the two models. This will:
-   - Plot the total citizen reported crime (the citizen model) from 2008 to 2023 for the treated and control group.
-   - Plot the total police activity (the police model) from 2008 to 2023 for the treated and control group.
-   - Save the charts for all the aforementioned plots under `/charts`
+5. Open html files to obtain summary results. Results have been attached to the `/charts` section for convenience.
 
