@@ -15,7 +15,7 @@ South African Police Service. South African Police Service Annual Crime Records 
 1. Ensure you have Python 3 installed and the required libraries
 
    ```bash
-   pip install seaborn statsmodels pandas matplotlib.pyplot numpy stargazer
+   pip install statsmodels pandas numpy stargazer
    ```
 
 2. Open `NB01-Data-Transformation.ipynb` in a Jupyter environment (VS Code or Jupyter Notebook).
@@ -30,5 +30,5 @@ South African Police Service. South African Police Service Annual Crime Records 
    - Do the interrupted time series for Rustenburg Municipality for the citizen model and the police model
    - Generate the model summaries for all the aforementioned regressions under `/model-summaries`
 
-5. Open html files to obtain summary results. Results have been attached to the `/charts` section for convenience.
+5. Open html files to obtain summary results. Results screenshots have been attached to the `/charts` section for convenience.
 
