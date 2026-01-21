@@ -1,0 +1,45 @@
+
+<style>
+table.stargazer {
+    font-family: Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+}
+table.stargazer th {
+    padding: 6px 12px;
+    text-align: center;
+    font-weight: bold;
+}
+table.stargazer td {
+    padding: 4px 12px;
+    border-top: 1px solid #ddd;
+}
+table.stargazer tr:nth-child(even) {
+    background-color: #fafafa;
+}
+caption {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.note {
+    font-size: 11px;
+    margin-top: 12px;
+    text-align: center;
+    color: #555;
+}
+</style>
+<table style="text-align:center"><tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><tr><td></td><td colspan="2">Citizen Model (DiD) - Contact Crime</td><td colspan="2">Citizen Model (DiD) - Contact-related Crime</td><td colspan="2">Citizen Model (DiD) - Property Crime</td><td colspan="2">Citizen Model (DiD) - Other Serious Crimes</td></tr><tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr>
+
+<tr><td style="text-align:left">DiD Estimator</td><td>0.104<sup></sup></td><td>-0.165<sup></sup></td><td>0.146<sup></sup></td><td>-0.114<sup></sup></td><td>0.079<sup></sup></td><td>-0.114<sup></sup></td><td>0.181<sup></sup></td><td>-0.125<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.215)</td><td>(0.143)</td><td>(0.229)</td><td>(0.164)</td><td>(0.183)</td><td>(0.164)</td><td>(0.245)</td><td>(0.185)</td></tr>
+<tr><td style="text-align:left">Police-detected crime (log)</td><td>0.749<sup>***</sup></td><td></td><td>0.724<sup>***</sup></td><td></td><td>0.709<sup>***</sup></td><td></td><td>0.852<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.014)</td><td></td><td>(0.010)</td><td></td><td>(0.014)</td><td></td><td>(0.012)</td><td></td></tr>
+
+<tr><td style="text-align: left">Station fixed effects</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td style="text-align: left">Year fixed effects</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td style="text-align: left">Standard errors</td><td>Clustered (station)</td><td>Clustered (station)</td><td>Clustered (station)</td><td>Clustered (station)</td><td>Clustered (station)</td><td>Clustered (station)</td><td>Clustered (station)</td><td>Clustered (station)</td></tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align: left">Observations</td><td>16965</td><td>16965</td><td>16965</td><td>16965</td><td>16965</td><td>16965</td><td>16965</td><td>16965</td></tr><tr><td style="text-align: left">R<sup>2</sup></td><td>0.693</td><td>0.007</td><td>0.684</td><td>0.006</td><td>0.659</td><td>0.006</td><td>0.699</td><td>0.006</td></tr><tr><td style="text-align: left">Adjusted R<sup>2</sup></td><td>0.693</td><td>0.005</td><td>0.683</td><td>0.005</td><td>0.659</td><td>0.005</td><td>0.699</td><td>0.005</td></tr><tr><td style="text-align: left">Residual Std. Error</td><td>0.830</td><td>1.494</td><td>0.821</td><td>1.456</td><td>0.852</td><td>1.456</td><td>0.930</td><td>1.692</td></tr><tr><td style="text-align: left">F Statistic</td><td>143.536<sup>***</sup></td><td>83.547<sup>***</sup></td><td>145.324<sup>***</sup></td><td>39.412<sup>***</sup></td><td>99.898<sup>***</sup></td><td>39.412<sup>***</sup></td><td>133.602<sup>***</sup></td><td>49.818<sup>***</sup></td></tr>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align: left">Note:</td><td colspan="8" style="text-align: right"><sup>*</sup>p&lt;0.1; <sup>**</sup>p&lt;0.05; <sup>***</sup>p&lt;0.01</td></tr></table>
